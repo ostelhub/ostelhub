@@ -79,7 +79,7 @@ const hostels = [
     ],
     rules: "Gate Closed After 8PM",
     contact: "**********"
-  },
+  }
 ];
 
 const params = new URLSearchParams(window.location.search);
