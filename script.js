@@ -28,7 +28,7 @@ const hostels = [
       "ost3.jpg"
     ],
     desc: "₹5000"
-  }
+  },
   {
     name: "Jenesis Boys Hostel",
     price: 6000,
