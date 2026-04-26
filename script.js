@@ -29,6 +29,16 @@ const hostels = [
     ],
     desc: "₹5000"
   }
+  {
+    name: "Jenesis Boys Hostel",
+    price: 6000,
+    images: [
+      "jen3.jpg",
+      "jen2.jpg",
+      "jen1.jpg"
+    ],
+    desc: "₹5000"
+  }
 ];
 
 const container = document.getElementById("hostelContainer");
