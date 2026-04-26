@@ -7,7 +7,7 @@ const hostels = [
       "hostel1b.jpg",
       "hostel1c.jpg"
     ],
-    desc: "Affordable shared living with basic facilities.",
+    desc: "₹4500",
     amenities: [
       "Bed",
       "Water Supply",
@@ -27,7 +27,7 @@ const hostels = [
       "hill2.jpg",
       "hill3.jpg"
     ],
-    desc: "Spacious room with study area.",
+    desc: "₹5000",
     amenities: [
       "Bed",
       "Study Table",
@@ -48,7 +48,7 @@ const hostels = [
       "ost2.jpg",
       "ost3.jpg"
     ],
-    desc: "Peaceful environment.",
+    desc: "₹5000",
     amenities: [
       "Parking",
       "Security",
