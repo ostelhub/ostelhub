@@ -17,7 +17,7 @@ const hostels = [
       "Security"
     ],
     rules: "No loud noise after 10PM",
-    contact: "9876543210"
+    contact: "**********"
   },
   {
     name: "Hill Boys Hostel",
@@ -38,7 +38,7 @@ const hostels = [
       "Attached Bathroom"
     ],
     rules: "Maintain cleanliness",
-    contact: "9123456780"
+    contact: "**********"
   },
   {
     name: "OstelHub Campus View",
@@ -59,7 +59,7 @@ const hostels = [
       "Power Backup"
     ],
     rules: "Gate closes at 9PM",
-    contact: "9988776655"
+    contact: "**********"
   }
 ];
 
