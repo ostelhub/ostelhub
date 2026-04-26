@@ -60,6 +60,26 @@ const hostels = [
     rules: "Gate closes at 9PM",
     contact: "**********"
   }
+   {
+    name: "Jenesis Boys Hostel",
+    price: 6000,
+    images: [
+      "jen3.jpg",
+      "jen2.jpg",
+      "jen1.jpg"
+    ],
+    desc: "₹5000",
+    amenities: [
+      "Single And Double Room",
+      "Study Table",
+      "WiFi",
+      "Electricity",
+      "Water Supply",
+      "Cupboard"
+    ],
+    rules: "Gate Closed After 8PM",
+    contact: "**********"
+  },
 ];
 
 const params = new URLSearchParams(window.location.search);
