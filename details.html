@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hostel Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>OstelHub</h1>
+  <a href="index.html" style="color:white;">← Back</a>
+</header>
+
+<div class="details-card">
+
+  <div class="image-slider">
+    <div class="image-track" id="imageTrack"></div>
+    <button class="img-btn prev">❮</button>
+    <button class="img-btn next">❯</button>
+  </div>
+
+  <div class="details-content">
+
+  <h2 id="detailName"></h2>
+  <p class="price" id="detailPrice"></p>
+
+  <!-- DESCRIPTION -->
+  <div class="info-section">
+    <h3>📝 Description</h3>
+    <div class="info-box">
+      <p id="detailDesc"></p>
+    </div>
+  </div>
+
+  <!-- AMENITIES -->
+  <div class="info-section">
+    <h3>🏠 Amenities</h3>
+    <div class="info-box">
+       <div id="detailAmenities" class="amenities-grid"></div>
+    </div>
+  </div>
+
+  <!-- RULES -->
+  <div class="info-section">
+    <h3>📜 Rules</h3>
+    <div class="info-box">
+      <p id="detailRules"></p>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="info-section">
+    <h3>📞 Contact</h3>
+    <div class="info-box">
+      <p id="detailContact"></p>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+
+<script src="details.js"></script>
+</body>
+</html>
