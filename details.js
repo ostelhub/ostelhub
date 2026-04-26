@@ -59,7 +59,7 @@ const hostels = [
     ],
     rules: "Gate closes at 9PM",
     contact: "**********"
-  }
+  },
    {
     name: "Jenesis Boys Hostel",
     price: 6000,
