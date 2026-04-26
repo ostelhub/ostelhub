@@ -20,7 +20,7 @@ const hostels = [
     desc: "₹5000"
   },
   {
-    name: "OstelHub Campus View",
+    name: "Jeremy Boys Hostel",
     price: 8500,
     images: [
       "ost1.jpg",
