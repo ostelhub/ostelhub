@@ -9,11 +9,10 @@ const hostels = [
     ],
     desc: "₹4500",
     amenities: [
-      "Bed",
+      "Single And Double Room",
       "Water Supply",
       "Electricity",
       "WiFi",
-      "Fan",
       "Security"
     ],
     rules: "No loud noise after 10PM",
@@ -29,7 +28,7 @@ const hostels = [
     ],
     desc: "₹5000",
     amenities: [
-      "Bed",
+      "Single And Double Room",
       "Study Table",
       "WiFi",
       "Electricity",
@@ -41,7 +40,7 @@ const hostels = [
     contact: "**********"
   },
   {
-    name: "OstelHub Campus View",
+    name: "Jeremy Boys Hostel",
     price: 8500,
     images: [
       "ost1.jpg",
