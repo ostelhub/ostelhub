@@ -3,9 +3,9 @@ const hostels = [
     name: "Anieu Girls PG",
     price: 3000,
     images: [
-      "images/hostel1.jpg",
-      "images/hostel1b.jpg",
-      "images/hostel1c.jpg"
+      "hostel1.jpg",
+      "hostel1b.jpg",
+      "hostel1c.jpg"
     ],
     desc: "Affordable shared living with basic facilities."
   },
@@ -13,9 +13,9 @@ const hostels = [
     name: "Hill Boys Hostel",
     price: 6000,
     images: [
-      "images/hill1.jpg",
-      "images/hill2.jpg",
-      "images/hill3.jpg"
+      "hill1.jpg",
+      "hill2.jpg",
+      "hill3.jpg"
     ],
     desc: "Spacious room with study area and storage."
   },
