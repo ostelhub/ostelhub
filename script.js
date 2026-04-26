@@ -7,7 +7,7 @@ const hostels = [
       "hostel1b.jpg",
       "hostel1c.jpg"
     ],
-    desc: "Affordable shared living with basic facilities."
+    desc: "₹4500"
   },
   {
     name: "Hill Boys Hostel",
@@ -17,7 +17,7 @@ const hostels = [
       "hill2.jpg",
       "hill3.jpg"
     ],
-    desc: "Spacious room with study area and storage."
+    desc: "₹5000"
   },
   {
     name: "OstelHub Campus View",
@@ -27,7 +27,7 @@ const hostels = [
       "ost2.jpg",
       "ost3.jpg"
     ],
-    desc: "Peaceful environment with parking space."
+    desc: "₹5000"
   }
 ];
 
@@ -52,7 +52,7 @@ function displayHostels() {
       <div class="card-content">
         <h3>${h.name}</h3>
         <p class="price">₹${h.price}/month</p>
-        <p>${h.desc}</p>
+        
       </div>
     `;
 
