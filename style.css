@@ -25,7 +25,7 @@ html {
 .logo {
   font-size: 22px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 /* HAMBURGER */
@@ -37,7 +37,7 @@ html {
   display: block;
   width: 25px;
   height: 3px;
-  background: white;
+  background: black;
   margin: 5px 0;
 }
 
