@@ -329,6 +329,40 @@ html {
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
+  
+  
+  .about h2, 
+  .contact h2, 
+  #listings h2 {
+    font-size: 32px; 
+  }
+
+  
+  .about p, 
+  .details-content p {
+    font-size: 18px; 
+     line-height: 1.6;
+  }
+
+  .about-card h3 {
+    font-size: 22px;
+  }
+
+  .about-card p {
+    font-size: 16px;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+  }
+
+  .card-content p {
+    font-size: 16px; 
+  }
+
+  .contact-item a {
+    font-size: 18px;
+  }
 
   .hero {
     height: 400px;
@@ -336,16 +370,6 @@ html {
 
   .grid {
     grid-template-columns: 1fr;
-  }
-
-  .about,
-  .contact {
-    padding: 100px 20px;
-  }
-
-  .about h2,
-  .contact h2 {
-    font-size: 38px;
   }
 
   .navbar {
