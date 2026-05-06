@@ -116,8 +116,3 @@ const navMenu = document.getElementById("navMenu");
 menuToggle.onclick = () => {
   navMenu.classList.toggle("active");
 };
-<script>
-function toggleMenu() {
-  document.getElementById("navLinks").classList.toggle("active");
-}
-</script>
