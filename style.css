@@ -135,7 +135,7 @@ html {
 /* CONTENT */
 .card-content {
   padding: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .card-content h3 {
