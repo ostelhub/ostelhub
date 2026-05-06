@@ -71,7 +71,7 @@ html {
 
 /* ================= HERO ================= */
 .hero {
-  height: 250px;
+  height: 70;
   background: url('ostel.jpg') center no-repeat;
   background-size: contain;
   background-color: #ffffff;
@@ -326,7 +326,7 @@ html {
 @media (max-width: 768px) {
 
   .hero {
-    height: 50vh;
+    height: 40vh;
   }
 
   .grid {
