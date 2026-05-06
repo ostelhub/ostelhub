@@ -235,8 +235,8 @@ nav a:hover {
 
 .hero {
   height: 60vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('https://images.unsplash.com/photo-1555854877-bab0e564b8d5') center/cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0,0,0,0.5)),
+              url('ostel.jpg') center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
