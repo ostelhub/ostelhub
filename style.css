@@ -534,29 +534,44 @@ section {
 }
 
 /* Menu */
-nav {
+.navbar {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: relative;
 }
 
-nav a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: yellow;
-}
-
-/* Hamburger */
+/* Hamburger always visible */
 .menu-toggle {
-  display: none;
-  font-size: 24px;
   cursor: pointer;
 }
 
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: black;
+  margin: 5px 0;
+}
+
+/* Hidden menu by default */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Show when active */
+.nav-links.active {
+  display: flex;
+}
 /* MOBILE VIEW */
 @media (max-width: 768px) {
   .hero {
