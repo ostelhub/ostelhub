@@ -565,7 +565,7 @@ nav a:hover {
     right: 0;
     background: #4facfe;
     flex-direction: column;
-    width: 200px;
+    width: 100px;
     display: none;
     padding: 10px;
     border-radius: 10px;
