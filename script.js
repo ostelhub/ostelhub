@@ -38,6 +38,26 @@ const hostels = [
       "jen1.jpg"
     ],
     desc: "₹5000"
+  },
+  {
+    name: "Agape Girls Hostel",
+    price: 6000,
+    images: [
+      "ag1.jpg",
+      "ag2.jpg",
+      "ag3.jpg"
+    ],
+    desc: "Peaceful environment with parking space."
+  },
+  {
+    name: "Phezhu Girls Hostel",
+    price: 6000,
+    images: [
+      "phe1.jpg",
+      "phe2.jpg",
+      "phe3.jpg"
+    ],
+    desc: "Peaceful environment with parking space."
   }
 ];
 
