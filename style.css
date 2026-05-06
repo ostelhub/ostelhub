@@ -73,7 +73,8 @@ html {
 /* ================= HERO ================= */
 .hero {
   height: 100vh;
-  background: url('ostel.jpg') center/cover no-repeat;
+  background: url('ostel.jpg') center/contain no-repeat;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
