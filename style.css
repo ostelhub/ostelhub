@@ -560,6 +560,14 @@ nav a:hover {
 /* MOBILE VIEW */
 @media (max-width: 768px) {
   .hero {
-    height: 60vh;   /* reduce height on phone */
+    height: 60vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    font-size: 16px;
   }
 }
