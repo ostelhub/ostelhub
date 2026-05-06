@@ -243,6 +243,7 @@ html {
 
 .info-section {
   margin-bottom: 30px;
+}
 
 /* ================= ABOUT ================= */
 .about {
@@ -385,4 +386,8 @@ html {
 
 .back-btn:hover {
   background: #f0f0f0;
+}
+
+section {
+  padding: 60px 0;
 }
