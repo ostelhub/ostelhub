@@ -238,10 +238,8 @@ html {
   transform: translateY(-3px);
 }
 
-.info-box {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.info-box p {
+  margin: 8px 0;
 }
 
 /* ================= ABOUT ================= */
