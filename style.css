@@ -10,7 +10,7 @@ header {
   align-items: center;
   padding: 15px 40px;
   background: linear-gradient(135deg, #4facfe, #00f2fe);
-  color: white;
+  color: rgb(0, 0, 0);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -51,7 +51,7 @@ nav a:hover {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
   gap: 20px;
   padding: 20px;
 }
@@ -234,15 +234,14 @@ nav a:hover {
 }
 
 .hero {
-  height: 60vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0,0,0,0.5)),
-              url('ostel.jpg') center/cover;
+  height: 100vh;
+  background: url('ostel.jpg') center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  text-align: center;
+ 
 }
 
 .hero h2 {
@@ -502,4 +501,91 @@ section {
 .amenity-icon {
   font-size: 16px;
 }
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo h1 {
+  font-size: 22px;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Hamburger */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #4facfe;
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+}
