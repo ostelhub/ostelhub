@@ -248,7 +248,7 @@ html {
 /* ================= ABOUT ================= */
 .about {
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px;
   background: linear-gradient(135deg, #f5f7fb, #eaf3ff);
 }
 
@@ -259,7 +259,7 @@ html {
 }
 
 .about h2 {
-  font-size: 36px;
+  font-size: 38px;
   margin-bottom: 20px;
 }
 
@@ -336,6 +336,16 @@ html {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .about,
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .about h2,
+  .contact h2 {
+    font-size: 28px;
   }
 
   .navbar {
