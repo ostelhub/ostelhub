@@ -72,14 +72,10 @@ html {
 
 /* ================= HERO ================= */
 .hero {
-  height: 80vh;
-  background: url('ostel.jpg') center/contain no-repeat;
+  height: 250px;
+  background: url('ostel.jpg') center no-repeat;
+  background-size: contain;
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
 }
 
 /* ================= GRID ================= */
@@ -329,7 +325,7 @@ html {
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
   .hero {
-    height: 20vh;
+    height: 200px;
   }
 
   .grid {
