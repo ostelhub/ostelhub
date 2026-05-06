@@ -334,34 +334,34 @@ html {
   .about h2, 
   .contact h2, 
   #listings h2 {
-    font-size: 32px; 
+    font-size: 38px; 
   }
 
   
   .about p, 
   .details-content p {
-    font-size: 18px; 
-     line-height: 1.6;
+    font-size: 20px; 
+     line-height: 3.2;
   }
 
   .about-card h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .about-card p {
-    font-size: 16px;
-  }
-
-  .card-content h3 {
     font-size: 20px;
   }
 
+  .card-content h3 {
+    font-size: 22px;
+  }
+
   .card-content p {
-    font-size: 16px; 
+    font-size: 18px; 
   }
 
   .contact-item a {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .hero {
