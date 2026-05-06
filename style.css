@@ -340,12 +340,12 @@ html {
 
   .about,
   .contact {
-    padding: 80px 20px;
+    padding: 100px 20px;
   }
 
   .about h2,
   .contact h2 {
-    font-size: 28px;
+    font-size: 38px;
   }
 
   .navbar {
