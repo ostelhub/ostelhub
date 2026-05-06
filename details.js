@@ -79,6 +79,46 @@ const hostels = [
     ],
     rules: "Gate Closed After 8PM",
     contact: "**********"
+  },
+  {
+    name: "Agape Girls Hostel",
+    price: 6000,
+    images: [
+      "ag1.jpg",
+      "ag2.jpg",
+      "ag3.jpg"
+    ],
+    desc: "₹6000",
+    amenities: [
+      "Single Room Price ₹7000",
+      "Single And Double",
+      "Security",
+      "WiFi",
+      "Hygene Living Environment",
+      "Power BackUp"
+    ],
+    rules: "Gate closes at 8PM",
+    contact: "**********"
+  },
+  {
+    name: "Phezhu Girls Hostel",
+    price: 6000,
+    images: [
+      "phe1.jpg",
+      "phe2.jpg",
+      "phe3.jpg"
+    ],
+    desc: "₹6000",
+    amenities: [
+      "Single And Double",
+      "Security",
+      "WiFi",
+      "24/7 Water",
+      "Hygene Living Environment",
+      "Power BackUp"
+    ],
+    rules: "Gate closes at 8PM",
+    contact: "**********"
   }
 ];
 
