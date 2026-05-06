@@ -328,6 +328,10 @@ html {
     height: 200px;
   }
 
+  .navbar {
+    padding: 18px 15px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
