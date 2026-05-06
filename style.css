@@ -71,7 +71,7 @@ html {
 
 /* ================= HERO ================= */
 .hero {
-  height: 70vh;
+  height: 500px;
   background: url('ostel.jpg') center no-repeat;
   background-size: contain;
   background-color: #ffffff;
