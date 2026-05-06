@@ -338,30 +338,31 @@ html {
     grid-template-columns: 1fr;
   }
 
-  .nav-links {
-    width: 180px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
   .navbar {
-    padding: 18px 15px;
+    padding: 20px 15px;   
   }
 
   .logo {
-    font-size: 26px;
+    font-size: 28px;      
   }
 
+  /* Hamburger icon bigger */
   .menu-toggle span {
-    width: 30px;
+    width: 32px;
     height: 4px;
     margin: 6px 0;
   }
 
+  /* Menu box */
+  .nav-links {
+    width: 220px;
+    padding: 25px;
+  }
+
+  /* Menu items bigger */
   .nav-links a {
     font-size: 20px;
+    padding: 12px 0;
   }
 
 }
