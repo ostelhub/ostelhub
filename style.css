@@ -558,35 +558,8 @@ nav a:hover {
 }
 
 /* MOBILE VIEW */
-@media (max-width: 600px) {
-  nav {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background: #4facfe;
-    flex-direction: column;
-    width: 200px;
-    display: none;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  nav.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
-  }
-}
-
-@media (max-width: 500px) {
-  .grid {
-    grid-template-columns: 1fr; /* 1 per row on mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;   /* reduce height on phone */
   }
 }
