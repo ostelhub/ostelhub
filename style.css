@@ -135,7 +135,7 @@ html {
 /* CONTENT */
 .card-content {
   padding: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .card-content h3 {
@@ -201,7 +201,7 @@ html {
 /* CONTENT */
 .details-content {
   padding: 25px;
-  text-align: left;
+  text-align: center;
 }
 
 .details-content h2 {
@@ -212,7 +212,7 @@ html {
 /* INFO SECTION */
 .info-section {
   margin-bottom: 25px;
-  text-align: center;
+  text-align: left;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -326,7 +326,7 @@ html {
 @media (max-width: 768px) {
 
   .hero {
-    height: 30vh;
+    height: 400px;
   }
 
   .grid {
