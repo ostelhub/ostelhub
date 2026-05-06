@@ -252,7 +252,7 @@ html {
 
 .about-container {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -362,7 +362,7 @@ html {
 }
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 .nav-right {
