@@ -10,7 +10,7 @@ header {
   align-items: center;
   padding: 15px 40px;
   background: linear-gradient(135deg, #4facfe, #00f2fe);
-  color: rgb(0, 0, 0);
+  color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -235,12 +235,13 @@ nav a:hover {
 
 .hero {
   height: 100vh;
-  background: url('ostel.jpg') center;
+  background: url('ostel.jpg') center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+  text-align:center;
  
 }
 
