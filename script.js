@@ -7,7 +7,6 @@ const hostels = [
       "hostel1b.jpg",
       "hostel1c.jpg"
     ],
-    desc: "₹4500"
   },
   {
     name: "Hill Boys Hostel",
@@ -17,17 +16,17 @@ const hostels = [
       "hill2.jpg",
       "hill3.jpg"
     ],
-    desc: "₹5000"
+    desc: "Spacious room with study area and storage."
   },
   {
     name: "Jeremy Boys Hostel",
-    price: 8500,
+    price: 6000,
     images: [
       "ost1.jpg",
       "ost2.jpg",
       "ost3.jpg"
     ],
-    desc: "₹5000"
+    desc: "Peaceful environment with parking space."
   },
   {
     name: "Jenesis Boys Hostel",
@@ -37,7 +36,7 @@ const hostels = [
       "jen2.jpg",
       "jen1.jpg"
     ],
-    desc: "₹5000"
+    desc: "Peaceful environment with parking space."
   },
   {
     name: "Agape Girls Hostel",
@@ -111,3 +110,9 @@ function displayHostels() {
 }
 
 displayHostels();
+const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+
+menuToggle.onclick = () => {
+  navMenu.classList.toggle("active");
+};
