@@ -235,7 +235,7 @@ nav a:hover {
 
 .hero {
   height: 100vh;
-  background: url('ostel.jpg') center/cover;
+  background: url('ostel.jpg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
