@@ -348,3 +348,22 @@ html {
   max-width: 1200px;
   margin: auto;
 }
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: rgba(0,0,0,0.05);
+}
