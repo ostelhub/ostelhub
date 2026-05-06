@@ -247,6 +247,7 @@ html {
 
 /* ================= ABOUT ================= */
 .about {
+  text-align: center;
   padding: 80px 20px;
   background: linear-gradient(135deg, #f5f7fb, #eaf3ff);
 }
@@ -317,6 +318,9 @@ html {
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   display: flex;
   gap: 10px;
+  justify-content: center;
+  text-align: center;
+  }
 }
 
 .icon {
@@ -390,4 +394,17 @@ html {
 
 section {
   padding: 60px 0;
+}
+
+#listings h2,
+.about h2,
+.contact h2 {
+  text-align: center;
+}
+
+
+#listings,
+.about,
+.contact {
+  text-align: center;
 }
