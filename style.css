@@ -1,4 +1,3 @@
-/* RESET */
 body {
   font-family: Arial, sans-serif;
   background: #f5f7fb;
@@ -242,6 +241,9 @@ html {
   margin: 8px 0;
 }
 
+.info-section {
+  margin-bottom: 30px;
+
 /* ================= ABOUT ================= */
 .about {
   padding: 80px 20px;
@@ -324,8 +326,7 @@ html {
 @media (max-width: 768px) {
 
   .hero {
-    height: 35vh;
-    background-size: contain;
+    height: 40vh;
   }
 
   .grid {
