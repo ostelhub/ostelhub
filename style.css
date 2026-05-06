@@ -201,7 +201,7 @@ html {
 /* CONTENT */
 .details-content {
   padding: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 .details-content h2 {
