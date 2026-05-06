@@ -86,7 +86,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 20px;
+  justify-content: center;
 }
 
 /* ================= CARD ================= */
@@ -341,4 +341,9 @@ html {
   h2 {
     font-size: 22px;
   }
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
