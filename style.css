@@ -369,8 +369,9 @@ html {
   }
 
   .grid {
-  grid-template-columns: repeat(2, minmax(140px, 1fr));
-  gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px;
   }
 
   .navbar {
