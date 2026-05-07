@@ -367,16 +367,17 @@ html {
     height: 400px;
   }
 
-
   .grid {
-    grid-template-columns: repeat(2, minmax(140px, 1fr)) !important;
-    gap: 12px;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    padding: 10px !important;
   }
 
   .card {
+    min-width: 0;
     width: 100%;
   }
-
+  
 
   .navbar {
     padding: 22px 17px;   
@@ -407,7 +408,7 @@ html {
 
 }
 .container {
-  width: 90%;
+  width: 95%;
   max-width: 1000px;
   margin: auto;
 }
