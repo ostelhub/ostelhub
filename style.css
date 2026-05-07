@@ -321,7 +321,6 @@ html {
   justify-content: center;
   text-align: center;
   }
-}
 
 .icon {
   font-size: 20px;
@@ -368,11 +367,16 @@ html {
     height: 400px;
   }
 
+
   .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 15px;
+    grid-template-columns: repeat(2, minmax(140px, 1fr)) !important;
+    gap: 12px;
   }
+
+  .card {
+    width: 100%;
+  }
+
 
   .navbar {
     padding: 22px 17px;   
