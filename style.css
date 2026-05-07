@@ -373,18 +373,18 @@ html {
   }
 
   .navbar {
-    padding: 20px 15px;   
+    padding: 22px 17px;   
   }
 
   .logo {
-    font-size: 28px;      
+    font-size: 30px;      
   }
 
   /* Hamburger icon bigger */
   .menu-toggle span {
-    width: 32px;
-    height: 4px;
-    margin: 6px 0;
+    width: 34px;
+    height: 6px;
+    margin: 8px 0;
   }
 
   /* Menu box */
@@ -395,8 +395,8 @@ html {
 
   /* Menu items bigger */
   .nav-links a {
-    font-size: 20px;
-    padding: 12px 0;
+    font-size: 22px;
+    padding: 14px 0;
   }
 
 }
