@@ -390,8 +390,8 @@ html {
   /* Hamburger icon bigger */
   .menu-toggle span {
     width: 30px;
-    height: 2px;
-    margin: 4px 0;
+    height: 5px;
+    margin: 5px 0;
   }
 
   /* Menu box */
@@ -402,7 +402,7 @@ html {
 
   /* Menu items bigger */
   .nav-links a {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 0;
   }
 
