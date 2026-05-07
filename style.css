@@ -333,38 +333,38 @@ html {
   .about h2, 
   .contact h2, 
   #listings h2 {
-    font-size: 38px; 
+    font-size: 36px; 
   }
 
   
   .about p, 
   .details-content p {
-    font-size: 20px; 
-     line-height: 3.2;
+    font-size: 18px; 
+     line-height: 1.6;
   }
 
   .about-card h3 {
-    font-size: 24px;
-  }
-
-  .about-card p {
-    font-size: 20px;
-  }
-
-  .card-content h3 {
     font-size: 22px;
   }
 
-  .card-content p {
-    font-size: 18px; 
+  .about-card p {
+    font-size: 18px;
   }
 
-  .contact-item a {
+  .card-content h3 {
     font-size: 20px;
   }
 
+  .card-content p {
+    font-size: 16px; 
+  }
+
+  .contact-item a {
+    font-size: 18px;
+  }
+
   .hero {
-    height: 400px;
+    height: 300px;
   }
 
   .grid {
@@ -380,30 +380,30 @@ html {
   
 
   .navbar {
-    padding: 22px 17px;   
+    padding: 20px 15px;   
   }
 
   .logo {
-    font-size: 30px;      
+    font-size: 28px;      
   }
 
   /* Hamburger icon bigger */
   .menu-toggle span {
-    width: 34px;
-    height: 6px;
-    margin: 8px 0;
+    width: 32px;
+    height: 4px;
+    margin: 6px 0;
   }
 
   /* Menu box */
   .nav-links {
-    width: 220px;
-    padding: 25px;
+    width: 218px;
+    padding: 23px;
   }
 
   /* Menu items bigger */
   .nav-links a {
-    font-size: 22px;
-    padding: 14px 0;
+    font-size: 20px;
+    padding: 12px 0;
   }
 
 }
