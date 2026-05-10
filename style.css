@@ -316,14 +316,19 @@ html {
   padding: 20px 30px;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
   display: flex;
-  gap: 10px;
+  align-items: center;   /* aligns icon & email */
   justify-content: center;
-  text-align: center;
-  }
+
+  gap: 12px;
+  flex-wrap: nowrap;
+}
 
 .icon {
-  font-size: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
 }
 
 /* ================= MOBILE ================= */
