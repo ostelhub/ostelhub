@@ -3,37 +3,31 @@ const hostels = [
     name: "Anieu Girls PG",
     price: 3000,
     images: ["hostel1.jpg","hostel1b.jpg","hostel1c.jpg"],
-    desc: "Affordable stay with good facilities."
   },
   {
     name: "Hill Boys Hostel",
     price: 6000,
     images: ["hill1.jpg","hill2.jpg","hill3.jpg"],
-    desc: "Spacious room with study area and storage."
   },
   {
     name: "Jeremy Boys Hostel",
     price: 6000,
     images: ["ost1.jpg","ost2.jpg","ost3.jpg"],
-    desc: "Peaceful environment with parking space."
   },
   {
     name: "Jenesis Boys Hostel",
     price: 6000,
     images: ["jen3.jpg","jen2.jpg","jen1.jpg"],
-    desc: "Peaceful environment with parking space."
   },
   {
     name: "Agape Girls Hostel",
     price: 6000,
     images: ["ag1.jpg","ag2.jpg","ag3.jpg"],
-    desc: "Peaceful environment with parking space."
   },
   {
     name: "Phezhu Girls Hostel",
     price: 6000,
     images: ["phe1.jpg","phe2.jpg","phe3.jpg"],
-    desc: "Peaceful environment with parking space."
   }
 ];
 
